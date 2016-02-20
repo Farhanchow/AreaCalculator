@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1449426813 source:c:\users\jibran\documents\jibran\school work\cs117\finale\main.cpp
+	<iostream>
+	<cstdlib>
+	<iomanip>
+
