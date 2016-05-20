@@ -53,7 +53,7 @@ break;
    }
    while (!is_positive(width))
    {
-       cout<< "Enter a non-negative width";
+       cout<< "Please Enter a non-negative width";
        cin>> width;
 
    }
