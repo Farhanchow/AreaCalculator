@@ -1,10 +1,11 @@
-// SIMPLE AREA CALCULATOR v2.0
+// SIMPLE AREA CALCULATOR v2.0 ***v1.0
+//Author: Farhan
 #include <iostream>
 #include <cstdlib>
 #include <iomanip>
 using namespace std;
 // display the area calculator menu
-// Simple Area Calculator Menu          -
+// Simple Area Calculator Menu  <<<< options for the user       -
 //     1. Calculate the area of a circle
 //     2. Calculate the area of a rectangle
 //     3. Quit to exit the program
@@ -30,10 +31,10 @@ int main()
   cout << fixed << showpoint << setprecision(5);
   switch (choice)
     {case 1: double radius; // radius of a circle
-  cout << "Enter radius of circle: ";
+  cout << "Please Enter Radius of Circle: ";
   cin >> radius;
  while (!is_positive(radius))
-{cout << "Enter a non-negative radius: ";
+{cout << "Please Enter a Non-negative Radius: ";
     cin >> radius; }
  area = circle(radius);
   cout << "Area of circle is: " << area << endl;
