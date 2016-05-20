@@ -87,7 +87,7 @@ while(((choice < 1) || (choice > 3)) && (!cin.fail()))
 cin >> choice;
 }
 if (cin.fail())
- {       cout << "Error: exiting now ... " << endl;
+ {       cout << "Error: exiting now ...come back soon" << endl;
  exit(EXIT_FAILURE);
  }
  return choice;
