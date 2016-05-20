@@ -41,9 +41,9 @@ int main()
 break;
    case 2: double length;
            double width;
-   cout<< "Enter the length of rectangle"<<endl;
+   cout<< "Please Enter the length of rectangle"<<endl;
    cin>> length;
-   cout<< "Enter the width of rectangle"<<endl;
+   cout<< "Please Enter the width of rectangle"<<endl;
    cin>> width;
    while (!is_positive(length))
    {
