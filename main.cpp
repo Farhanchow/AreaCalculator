@@ -6,7 +6,7 @@
 using namespace std;
 // display the area calculator menu
 // Simple Area Calculator Menu  <<<< options for the user       -
-//     1. Calculate the area of a circle
+//     1. Calculate the area of a circle.
 //     2. Calculate the area of a rectangle
 //     3. Quit to exit the program
 void display_menu();
